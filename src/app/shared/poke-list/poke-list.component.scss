@@ -20,7 +20,8 @@ $padding: rem-calc(20);
         
         margin-bottom: rem-calc(10);
         border-radius: rem-calc(10);
-
+        text-decoration: none;
+        color: var(--primary-color);
 
         &__status{
             h2{
@@ -62,6 +63,7 @@ $padding: rem-calc(20);
 
             right: $padding;
             bottom: $padding;
+            background: url('../../../assets/bg/background-list-pokemons.svg');
         }
 
         img{
